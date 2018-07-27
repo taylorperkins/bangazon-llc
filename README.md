@@ -4,9 +4,9 @@
 
 This is overall a basic python crash-course.
 There are two main files that are highly suggested to read!
-The first is [coding standards]('./CODING_STANDARDS.md') to help with understanding python convention.
+The first is [coding standards](./CODING_STANDARDS.md) to help with understanding python convention.
 Conventions are used to allow developers to talk and work on the same level without wondering why a script is written a certain way.
-The second file is regarding [installations]('./INSTALLATIONS.md') for running python code.
+The second file is regarding [installations](./INSTALLATIONS.md) for running python code.
 If you do not have python installed on your computer, this file breaks down the process for both windows and mac users.
 
 The guts of this course can be found in the `crash-course` directory.
