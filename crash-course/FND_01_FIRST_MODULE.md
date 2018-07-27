@@ -24,9 +24,10 @@ Let's take a look at the code.
 ① SUFFIXES = {1000: ['KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'],
             1024: ['KiB', 'MiB', 'GiB', 'TiB', 'PiB', 'EiB', 'ZiB', 'YiB']}
 
-② def approximate_size(size, a_kilobyte_is_1024_bytes=True):
 
-    '''Convert a file size to human-readable form.
+② def approximate_size(size, a_kilobyte_is_1024_bytes=True):
+    """
+    Convert a file size to human-readable form.
 
     (this is a docstring)
 
@@ -37,7 +38,7 @@ Let's take a look at the code.
 
     Returns: string
 
-    '''
+    """
 ③   if size < 0:
         raise ValueError('number must be non-negative')
 
@@ -49,10 +50,14 @@ Let's take a look at the code.
 
     raise ValueError('number too large')
 
+
 if __name__ == '__main__':
 ⑤   print(approximate_size(16384, False))
     print(approximate_size(size=16384, a_kilobyte_is_1024_bytes=False))
+
+    # Exception should be raised here
     print(approximate_size(-16384))
+
 ```
 
 > ☞ Like JavaScript, Python is a dynamically typed language, meaning that the compiler determines the type of a variable at run-time.

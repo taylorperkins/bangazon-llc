@@ -1,13 +1,9 @@
 # Importing Modules
 
-Importing other modules in Python is very similar to how to did it in Browserify or including dependencies in Angular. Instead of the `require()` function in JavaScript, you use `import`.
+Importing other modules in Python is very straightforward, you use `import`.
 
-```
-# In JavaScript
-let $ = require('jquery');
-
-
-# In Python
+```py
+# Example import (should be at top of file)
 import http
 ```
 

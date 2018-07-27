@@ -1,6 +1,7 @@
 # Comprehension
 
-Comprehension in Python is very much like the `map()` and `filter()` array functions in JavaScript. They are ways to iterate over a collection, perform some logic on each item, and build a new collection as the result.
+
+They are ways to iterate over a collection, perform some logic on each item, and build a new collection as the result.
 
 ## List Comprehension
 
@@ -11,7 +12,7 @@ flowers = ['Lily', 'Snapdragon', 'Rose', 'Tulip']
 large_flowers = ['a large ' + f for f in flowers]
 ```
 
-Just like JavaScript `map()` and `filter()`, this is a shorthand way of writing a `for` loop to accomplish the same thing.
+This is a shorthand way of writing a `for` loop to accomplish the same thing.
 
 ```python
 large_flowers = list()
@@ -24,7 +25,7 @@ for f in flowers:
 Dictionaries, being a collection of key/value pairs, just works slightly differently. You need to use the `items()` property on the original dictionary for the iteration.
 
 ```python
-family = { 'mother': 'Margaret', 'father': 'Reginald', 'sister': 'Jenny'}
+family = {'mother': 'Margaret', 'father': 'Reginald', 'sister': 'Jenny'}
 my_family = {'my ' + k + ' is ' + v for (k,v) in family.items()}
 >>> my_family
 {'my father is Reginald', 'my sister is Jenny', 'my mother is Margaret'}

@@ -1,8 +1,10 @@
 # Python Classes
 
-A class in Python is much like the new instances of functions that you created in JavaScript when you learned about prototypal inheritance.
+Python classes are, well, objects!
+While they can be used to store data, they are more generally used to create instances of a type, or perform actions.
 
-Instead of using the `new` keyword, or using the newer `Object.create()` function, you simply define a class and call it like you were calling a function. Below is a perfectly valid class (that does absolutely nothing) and then gets created and invoked afterwards.
+Instead of using the `def` keyword, you simply define a class and call it like you were calling a function.
+Below is a perfectly valid class (that does absolutely nothing) and then gets created and invoked afterwards.
 
 ```python
 # Define a class
@@ -28,9 +30,10 @@ a_zoo = Zoo("Zoolandia")
 a_zoo.zoo_name
 ```
 
-You can see that the syntax is very close to creating a new instance of a JavaScript class. Be aware that the `__init__` function may **look** like the constructor function, but it's not. It only gets invoked after the instance of the class has been fully created, and that new instance gets passed into the `__init__` function.
+Be aware that the `__init__` function may **look** like the constructor function, but it's not.
+It only gets invoked after the instance of the class has been fully created, and that new instance gets passed into the `__init__` function.
 
-In fact, the class instance is the first argument to **_any_** function defined in a class.
+In fact, the class instance is the first argument to **_any_** function defined in a class, which, by convention, is referred to as `self`.
 
 ```python
 

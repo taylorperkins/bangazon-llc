@@ -53,7 +53,8 @@ available_car_colors = (
 
 ## Overview
 
-This is an advanced challenge because it requires multiple layers of iteration. It is also an introduction to database relationships because there are four unique collections that are all related to each other.
+This is an advanced challenge because it requires multiple layers of iteration.
+It is also an introduction to database relationships because there are four unique collections that are all related to each other.
 
 In the `makes` and `colors` collections, each item has a numeric identifier, and then a string representation.
 

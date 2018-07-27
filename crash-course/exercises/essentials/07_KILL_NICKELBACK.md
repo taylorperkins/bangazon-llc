@@ -1,6 +1,7 @@
 # Kill Nickelback
 
-In this exercises, you're going to use a conditional statement inside a comprehension. Let's look at a basic example.
+In this exercises, you're going to use a conditional statement inside a comprehension.
+Let's look at a basic example.
 
 ```python
 nums = range(10)
@@ -9,7 +10,6 @@ small_numbers = [num for num in nums if num < 6]
 
 words = ['big', 'red', 'dog', 'ate', 'his', 'food']
 three_letters_words = [ word.title() for word in words if len(word) == 3 ]
-# len(stringVariable) is equivalent to stringVariable.length in JavaScript
 ```
 
 ## Setup

@@ -1,43 +1,80 @@
-# Bangazon LLC
+# Data Science - Python Basics
 
-## The Personal E-Commerce Platform
+## For Reading
 
-Bangazon LLC welcomes you to the team. You've been selected from a deep pool of candidates to help build the next, disruptive online platform. Our goal is to become the most personalized, and most powerful commericial platform for individuals all around the globe.
+This is overall a basic python crash-course.
+There are two main files that are highly suggested to read!
+The first is [coding standards]('./CODING_STANDARDS.md') to help with understanding python convention.
+Conventions are used to allow developers to talk and work on the same level without wondering why a script is written a certain way.
+The second file is regarding [installations]('./INSTALLATIONS.md') for running python code.
+If you do not have python installed on your computer, this file breaks down the process for both windows and mac users.
 
-You are needed to make that happen.
+The guts of this course can be found in the `crash-course` directory.
+In this directory you will find some `.md` files for reading.
+These files will give some explanation, as well as examples, for some python fundamentals.
 
-In order to become a profitable, and sustainable organization, we need you to build all of the technology and tooling for the company.
+Files most recommended:
+```
+FND_01_FIRST_MODULE.md
+FND_02_IMPORTING.md
+FND_03_TYPES.md
+FND_04_FUNCTIONS.md
+FND_05_LOOPING.md
+FND_06_COMPREHENSION.md
+FND_08_DOCSTRING.md
+FND_09_EXCEPTION_HANDLING.md
+FND_10_DEBUGGING.md
+FND_15_GENERATORS.md
+FND_16_DUCK_TYPING.md
+```
 
-# Learning Objectives
+The remaining `.md` files, while informative, will unlikely be touched throughout this course.
+Feel free to read through them as you please!
+While reading through, do not be afraid to create files of your own and prove to yourself how these concepts get applied.
 
-While you are building out the Bangazon Platform, your leadership team will ensure that the following foundational skills are developed by each team, and by each individual on the team.
+## Exercises
 
-![Learning objectives](./learning-objectives.png)
+### Order of Exercises
 
-## Orientation
+This is a suggested order for completing the exercises in orientation:
 
-Your first two weeks on the job will be you orientation to the technical languages, tools, and frameworks that you'll be using. You will also be introduced to the processes and procedures that you will need to follow to ensure high communication and high productivity for your team.
+### Basic collections and classes
+1. [Dictionaries](./crash-course/exercises/essentials/01_DICTIONARIES.md)
+1. [Sets](./crash-course/exercises/essentials/02_SETS.md)
+1. [Lists](./crash-course/exercises/essentials/03_LISTS.md)
+1. [Tuples](./crash-course/exercises/essentials/04_TUPLES.md)
+1. [Classes](./crash-course/exercises/essentials/05_CLASSES.md)
 
-1. Installation of required tools.
-1. Introduction to the language.
-1. Concepts of sustainable, scalable, object-oriented software development.
-1. Test driven development
-1. Overview of server-side development ecosystem
-1. How the Internet works
-1. Inheritance, composition, and aggregation
-1. Entity relationships
-1. Structured Query Language (SQL)
-1. Object Relational Mapping (ORM)
+### Intermediate exercises
+1. [Family Dictionary](./crash-course/exercises/essentials/06_FAMILY_DICTIONARY.md)
+1. [Kill Nickelback](./crash-course/exercises/essentials/07_KILL_NICKELBACK.md)
+1. [RandomSquared](./crash-course/exercises/essentials/08_RANDOMSQUARED.md)
+1. [Calculator](./crash-course/exercises/essentials/09_TEST_CALCULATOR.md)
+1. [File Storage](./crash-course/exercises/essentials/10_file_storage.md)
 
-At the end of your orientation, your management team will determine which Development Team you will be assigned to for the next three months.
+### Advanced exercises
+1. Basic Class architecture with simple unittests (optional) with [Test Animals](./crash-course/exercises/challenges/01_TEST_ANIMALS.md)
+1. Persist data with a [Bag of Loot](./crash-course/exercises/challenges/02_BAG_OF_LOOT.md)
+1. Persist data with a [Mary Margaret](./crash-course/exercises/challenges/03_SHARED_MEMORIES.md)
+1. Persist data with a [Mary Margaret](./crash-course/exercises/challenges/03_SHARED_MEMORIES.md)
 
-## Platform Development
+### SQL exercises
+1. We will work through the [introduction to data relationships](./crash-course/exercises/challenges/04_MUSIC_HISTORY.md) as a team in class.
 
-You will work on four different [Sprints](https://www.scruminc.com/sprint/) while you build the products that Bangazon Corporation needs in order to operate as a modern business. On each of these sprints, you will build features that your product owner has defined in the [Backlog](http://www.mountaingoatsoftware.com/agile/scrum/scrum-tools/product-backlog).
+### Gold Star Student
+1. [Challenge Cars](./crash-course/exercises/challenges/05_CHALLENGE_CARS.md)
 
-Your management team will ensure that you have the proper training in the skills, concepts, and tools needed to complete the projects, and then you will fulfill the requirements for the project until you are done, as defined in the [Bangazon Definition of Done](https://github.com/nashville-software-school/bangazon-llc/blob/master/EMPLOYEE_HANDBOOK.md#definition-of-done).
+#### Online SQL Tutorial
 
-# The Python Way
+There are two online tutorials that are very handy tools if you ever want to quickly churn through the basics of the SQL language against a pre-built database.
+
+1. [Basic SQL Course](http://www.sqlcourse.com/intro.html)
+2. [Intermediate SQL Course](http://www.sqlcourse2.com/intro2.html)
+
+
+
+
+# The Python Way => (import this)
 
 Beautiful is better than ugly.
 

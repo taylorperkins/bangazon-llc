@@ -21,7 +21,8 @@ kite.price = dict()  # No complaints here
 kite.description = 1024  # Python don't care
 ```
 
-Since Python is dynamically typed, simple attributes have no way of enforcing what value they accept. Fortunely, the language provides a way for you to check and enforce value restrictions - the `@property` decorator.
+Since Python is dynamically typed, simple attributes have no way of enforcing what value they accept.
+Fortunely, the language provides a way for you to check and enforce value restrictions - the `@property` decorator.
 
 
 ```py

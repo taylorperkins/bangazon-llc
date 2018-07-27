@@ -1,6 +1,8 @@
 # Calculator Unit Tests
 
-Just like you did in JavaScript when you learned about Jasmine, you're going to create a class that test the functionality of a Calculator class.
+This exercise combines both classes and unittesting.
+If you're feeling like a star, try to shoot for the unittests and see if you can get them running first, then passing.
+You're going to create a class that test the functionality of a Calculator class.
 
 ##### Starter code for test class
 
